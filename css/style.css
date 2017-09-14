@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	margin: 20px auto;
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+.container ul li{
+	float: left;
+}
+
+.pic{
+	width: 3600px;
+}
+
+.container .pic li a img{
+	width: 600px;
+	height: 400px;
+}
+
+.list{
+	position: absolute;
+	bottom: 15px;
+	left: 180px;
+	text-align: center;
+}
+.list li{
+	width: 30px;
+	height: 30px;
+	background-color: #000;
+	color: #FFF;
+	line-height: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 0 5px;
+}
+
+.list .on{
+	background-color: #C40000;
+	color: #FFF;
+}
